@@ -99,15 +99,15 @@ public class RecommendActivity extends AppCompatActivity{
 
         mydata = new ArrayList<MyItem>();
 
-        mi = new MyItem(R.drawable.logo, "약 7.5km 입니다.", "약 4시간 소요됩니다.", "복정역 부근에 있습니다.");
+        mi = new MyItem(R.drawable.no_1, "약 7.5km 입니다.", "약 4시간 소요됩니다.", "복정역 부근에 있습니다.");
         mydata.add(mi);
-        mi = new MyItem(R.drawable.logo, "약 7.4km 입니다.", "약 3시간 30분소요됩니다.", "황송공원, 남한산성 도립공원 부근에 있습니다.");
+        mi = new MyItem(R.drawable.no_2, "약 7.4km 입니다.", "약 3시간 30분소요됩니다.", "황송공원, 남한산성 도립공원 부근에 있습니다.");
         mydata.add(mi);
-        mi = new MyItem(R.drawable.logo, "약 9.7km 입니다.", "약 4시간 30분 소요됩니다.", "오르막코스가 많습니다.");
+        mi = new MyItem(R.drawable.no_3, "약 9.7km 입니다.", "약 4시간 30분 소요됩니다.", "오르막코스가 많습니다.");
         mydata.add(mi);
-        mi = new MyItem(R.drawable.logo, "약 9.5km 입니다.", "약 4시간 소요됩니다.", "신구대학교 식물원 부근에 있습니다.");
+        mi = new MyItem(R.drawable.no_4, "약 9.5km 입니다.", "약 4시간 소요됩니다.", "신구대학교 식물원 부근에 있습니다.");
         mydata.add(mi);
-        mi = new MyItem(R.drawable.logo, "약 1.2km 입니다.", "약 15분 소요됩니다.", "공원 한 바퀴를 도는 순환산책로입니다.");
+        mi = new MyItem(R.drawable.no_5, "약 2.5km 입니다.", "약 1시간 소요됩니다.", "공원 한 바퀴를 도는 순환산책로입니다.");
         mydata.add(mi);
 
         list = (ListView) findViewById(R.id.list);
