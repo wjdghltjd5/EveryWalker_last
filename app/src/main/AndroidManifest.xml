@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.every">
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -12,13 +14,22 @@
         android:theme="@style/Theme.Every">
         <activity android:name=".MainActivity"> </activity>
         <activity android:name=".SignActivity"> </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"> </activity>
+        <activity android:name=".MapAcivity"> </activity>
+        <activity android:name=".BoardReadActivity"> </activity>
+        <activity android:name=".NewPostActivity"> </activity>
+        <activity android:name=".RecommendActivity"> </activity>
+
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="13b0670ec812f24861efebdb17dea087"/>
     </application>
 
 </manifest>
